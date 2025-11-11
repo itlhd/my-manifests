@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 可以定义多个remote -->
+  <remote name="github" fetch="https://github.com/itlhd"/>
+  
+  <default remote="origin" revision="main" sync-j="4"/>
+  
+  <!-- 项目1：使用默认配置 -->
+  <project name="kernel" />
+  
+  <!-- 项目2：指定特定分支 -->
+  <project name="rkbin" />
+  
+  <!-- 项目3：来自不同的远程 -->
+  <project name="u-boot" />
+  
+</manifest>
