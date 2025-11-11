@@ -11,4 +11,4 @@
   <project name="rkbin" path="rkbin" />
   <project name="kernel" path="kernel" />
   <project name="u-boot" path="u-boot" />
-</xml>
+</manifest>
